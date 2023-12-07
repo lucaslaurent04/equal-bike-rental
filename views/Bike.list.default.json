@@ -1,0 +1,35 @@
+{
+  "name": "Bikes",
+  "description": "Bike list default",
+  "layout": {
+    "items": [
+      {
+        "type": "field",
+        "value": "id",
+        "width": "20%",
+        "align": "left"
+      },
+      {
+        "type": "field",
+        "value": "color",
+        "width": "20%"
+      },
+      {
+        "type": "field",
+        "value": "usage_state",
+        "width": "20%"
+      },
+      {
+        "type": "field",
+        "value": "available",
+        "width": "20%"
+      },
+      {
+        "type": "field",
+        "value": "customer_id",
+        "width": "20%",
+        "label": "Customer"
+      }
+    ]
+  }
+}

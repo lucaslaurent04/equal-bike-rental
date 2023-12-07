@@ -1,0 +1,40 @@
+{
+    "name": "Bike Rental App",
+    "access": {
+        "groups": ["users"]
+    },
+    "layout": {
+        "items": [
+            {
+                "id": "bike_rental.bike",
+                "type": "entry",
+                "label": "Bikes",
+                "description": "",
+                "context": {
+                    "entity": "bike_rental\\Bike",
+                    "view": "list.default"
+                }
+            },
+            {
+                "id": "bike_rental.customer",
+                "type": "entry",
+                "label": "Customers",
+                "description": "",
+                "context": {
+                    "entity": "bike_rental\\Customer",
+                    "view": "list.default"
+                }
+            },
+            {
+                "id": "bike_rental.rental",
+                "type": "entry",
+                "label": "Rentals",
+                "description": "",
+                "context": {
+                    "entity": "bike_rental\\Rental",
+                    "view": "list.default"
+                }
+            }
+        ]
+    }
+}

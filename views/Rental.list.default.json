@@ -1,0 +1,37 @@
+{
+  "name": "Rentals",
+  "description": "Rental list default",
+  "layout": {
+    "items": [
+      {
+        "type": "field",
+        "value": "id",
+        "width": "10%",
+        "align": "left"
+      },
+      {
+        "type": "field",
+        "value": "customer_id",
+        "width": "30%",
+        "label": "Customer",
+        "help": "Customer who rented the bike."
+      },
+      {
+        "type": "field",
+        "value": "start",
+        "width": "30%",
+        "widget": {
+          "usage": "datetime/short"
+        }
+      },
+      {
+        "type": "field",
+        "value": "end",
+        "width": "30%",
+        "widget": {
+          "usage": "datetime/short"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Customers",
+  "description": "Customer list default",
+  "layout": {
+    "items": [
+      {
+        "type": "field",
+        "value": "id",
+        "width": "10%",
+        "align": "left"
+      },
+      {
+        "type": "field",
+        "value": "firstname",
+        "width": "45%"
+      },
+      {
+        "type": "field",
+        "value": "lastname",
+        "width": "45%"
+      }
+    ]
+  }
+}
