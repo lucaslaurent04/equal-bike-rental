@@ -17,17 +17,53 @@
                       {
                         "type": "field",
                         "value": "customer_id",
-                        "width": "30%"
+                        "width": "100%"
                       },
                       {
                         "type": "field",
                         "value": "start",
-                        "width": "40%"
+                        "width": "25%"
                       },
                       {
                         "type": "field",
                         "value": "end",
-                        "width": "40%"
+                        "width": "25%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "columns": [
+                  {
+                    "width": "50%",
+                    "items": [
+                      {
+                        "type": "field",
+                        "value": "start",
+                        "width": "50%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "end",
+                        "width": "50%"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "columns": [
+                  {
+                    "width": "50%",
+                    "items": [
+                      {
+                        "type": "field",
+                        "value": "bikes_ids",
+                        "width": "100%",
+                        "widget": {
+                          "domain": ["available", "=", true]
+                        }
                       }
                     ]
                   }

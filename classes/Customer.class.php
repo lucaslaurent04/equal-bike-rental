@@ -20,7 +20,7 @@ class Customer extends Model
             'name' => [
                 'type' => 'computed',
                 'result_type' => 'string',
-                'store' => false,
+                'store' => true,
                 'function' => 'calcName'
             ],
             'phone_number' => [

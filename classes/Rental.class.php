@@ -9,21 +9,26 @@ class Rental extends Model
     public static function getColumns(): array
     {
         return [
-            'bike_id' => [
-                'type' => 'many2one',
-                'foreign_object' => 'bike_rental\Bike',
-                'description' => 'Id of the rented bike'
-            ],
             'customer_id' => [
                 'type' => 'many2one',
                 'foreign_object' => 'bike_rental\Customer',
                 'description' => 'Id of the customer who rented the bike'
             ],
+            'bikes_ids' => [
+                'type' => 'many2many',
+                'foreign_object' => 'bike_rental\Bike',
+                'foreign_field' => 'rentals_ids',
+                'rel_table' => 'bike_rental_rel_bike_rental',
+                'rel_foreign_key' => 'bike_id',
+                'rel_local_key' => 'rental_id'
+            ],
             'start' => [
-                'type' => 'datetime'
+                'type' => 'datetime',
+                'default' => time()
             ],
             'end' => [
-                'type' => 'datetime'
+                'type' => 'datetime',
+                'default' => time()
             ]
         ];
     }
