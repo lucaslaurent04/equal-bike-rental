@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bike_rental\\Customer",
+    "lang": "en",
+    "data": [
+      {
+        "id": 1,
+        "firstname": "Jean",
+        "lastname": "Dupont",
+        "phone_number": "+32487526598",
+        "email": "jean.dupont@gmail.com"
+      },
+      {
+        "id": 2,
+        "firstname": "David",
+        "lastname": "Box",
+        "phone_number": "+32487237845",
+        "email": "david.box@gmail.com"
+      }
+    ]
+  }
+]

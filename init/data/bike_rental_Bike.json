@@ -1,0 +1,416 @@
+[
+  {
+    "name": "bike_rental\\Bike",
+    "lang": "en",
+    "data": [
+      {
+        "id": 1,
+        "color": "blue",
+        "size": 1,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "size": 1,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 3,
+        "color": "white",
+        "size": 1,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 4,
+        "color": "black",
+        "size": 1,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 5,
+        "color": "black",
+        "size": 1,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 6,
+        "color": "blue",
+        "size": 2,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 7,
+        "color": "red",
+        "size": 2,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 8,
+        "color": "white",
+        "size": 2,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 9,
+        "color": "black",
+        "size": 2,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 10,
+        "color": "black",
+        "size": 2,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 11,
+        "color": "blue",
+        "size": 3,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 12,
+        "color": "red",
+        "size": 3,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 13,
+        "color": "white",
+        "size": 3,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 14,
+        "color": "black",
+        "size": 3,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 15,
+        "color": "black",
+        "size": 3,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 16,
+        "color": "black",
+        "size": 4,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 17,
+        "color": "blue",
+        "size": 4,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 18,
+        "color": "red",
+        "size": 4,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 19,
+        "color": "white",
+        "size": 4,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 20,
+        "color": "black",
+        "size": 4,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 21,
+        "color": "black",
+        "size": 5,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 22,
+        "color": "black",
+        "size": 5,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 23,
+        "color": "blue",
+        "size": 5,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 24,
+        "color": "red",
+        "size": 5,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 25,
+        "color": "white",
+        "size": 5,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 26,
+        "color": "blue",
+        "size": 6,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 27,
+        "color": "red",
+        "size": 6,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 28,
+        "color": "white",
+        "size": 6,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 29,
+        "color": "black",
+        "size": 6,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 30,
+        "color": "black",
+        "size": 6,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 31,
+        "color": "blue",
+        "size": 7,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 32,
+        "color": "red",
+        "size": 7,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 33,
+        "color": "white",
+        "size": 7,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 34,
+        "color": "black",
+        "size": 7,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 35,
+        "color": "black",
+        "size": 7,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 36,
+        "color": "blue",
+        "size": 8,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 37,
+        "color": "red",
+        "size": 8,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 38,
+        "color": "white",
+        "size": 8,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 39,
+        "color": "black",
+        "size": 8,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 40,
+        "color": "black",
+        "size": 8,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 41,
+        "color": "black",
+        "size": 9,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 42,
+        "color": "blue",
+        "size": 9,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 43,
+        "color": "red",
+        "size": 9,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 44,
+        "color": "white",
+        "size": 9,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 45,
+        "color": "black",
+        "size": 9,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 46,
+        "color": "black",
+        "size": 10,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 47,
+        "color": "black",
+        "size": 10,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 48,
+        "color": "blue",
+        "size": 10,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 49,
+        "color": "red",
+        "size": 10,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 50,
+        "color": "white",
+        "size": 10,
+        "usage_state": "good",
+        "available": true,
+        "customer_id": null
+      },
+      {
+        "id": 20,
+        "color": "black",
+        "size": 4,
+        "usage_state": "bad",
+        "available": true,
+        "customer_id": null
+      }
+    ]
+  }
+]
