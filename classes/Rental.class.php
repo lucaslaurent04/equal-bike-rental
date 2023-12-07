@@ -28,7 +28,7 @@ class Rental extends Model
             ],
             'end' => [
                 'type' => 'datetime',
-                'default' => time()
+                'default' => time() + (3600 * 2)
             ]
         ];
     }
