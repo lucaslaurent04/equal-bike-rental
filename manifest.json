@@ -1,0 +1,24 @@
+{
+    "name": "bike_rental",
+    "depends_on": [
+        "core"
+    ],
+    "apps": [
+        {
+            "id": "bike-rental-app",
+            "extends": "app",
+            "name": "Bike rental",
+            "description": "",
+            "icon": "sentiment_satisfied",
+            "color": "#29A1A1",
+            "access": {
+                "groups": ["users"]
+            },
+            "params": {
+                "menus": {
+                    "left": "bike_rental.left"
+                }
+            }
+        }
+    ]
+}
