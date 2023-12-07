@@ -7,7 +7,7 @@ use equal\orm\Model;
 class Bike extends Model
 {
     private static $colors = ['blue', 'black', 'grey', 'red', 'yellow', 'white'];
-    private static $usage_state = ['bad', 'good'];
+    private static $usage_states = ['bad', 'good'];
 
     public static function getColumns(): array
     {
@@ -26,7 +26,7 @@ class Bike extends Model
                 'type' => 'string',
                 'description' => 'Bike usage state',
                 'required' => true,
-                'selection' => self::$usage_state
+                'selection' => self::$usage_states
             ],
             'available' => [
                 'type' => 'boolean',
