@@ -1,0 +1,37 @@
+{
+  "name": "Customer",
+  "description": "Customer form",
+  "actions": [],
+  "layout": {
+    "groups": [
+      {
+        "label": "",
+        "sections": [
+          {
+            "rows": [
+              {
+                "columns": [
+                  {
+                    "width": "50%",
+                    "items": [
+                      {
+                        "type": "field",
+                        "value": "firstname",
+                        "width": "50%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "lastname",
+                        "width": "50%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

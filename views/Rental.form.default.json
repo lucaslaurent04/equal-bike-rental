@@ -1,0 +1,42 @@
+{
+  "name": "Rental",
+  "description": "Rental form",
+  "actions": [],
+  "layout": {
+    "groups": [
+      {
+        "label": "",
+        "sections": [
+          {
+            "rows": [
+              {
+                "columns": [
+                  {
+                    "width": "50%",
+                    "items": [
+                      {
+                        "type": "field",
+                        "value": "customer_id",
+                        "width": "30%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "start",
+                        "width": "40%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "end",
+                        "width": "40%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

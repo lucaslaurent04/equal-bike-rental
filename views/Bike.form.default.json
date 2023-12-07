@@ -1,0 +1,47 @@
+{
+  "name": "Bike",
+  "description": "Bike form",
+  "actions": [],
+  "layout": {
+    "groups": [
+      {
+        "label": "",
+        "sections": [
+          {
+            "rows": [
+              {
+                "columns": [
+                  {
+                    "width": "50%",
+                    "items": [
+                      {
+                        "type": "field",
+                        "value": "color",
+                        "width": "25%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "usage_state",
+                        "width": "25%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "available",
+                        "width": "25%"
+                      },
+                      {
+                        "type": "field",
+                        "value": "customer_id",
+                        "width": "25%"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
