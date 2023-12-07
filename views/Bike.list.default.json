@@ -6,13 +6,19 @@
       {
         "type": "field",
         "value": "id",
-        "width": "20%",
+        "width": "10%",
         "align": "left"
       },
       {
         "type": "field",
         "value": "color",
         "width": "20%"
+      },
+      {
+        "type": "field",
+        "value": "size",
+        "width": "10%",
+        "align": "center"
       },
       {
         "type": "field",
@@ -23,12 +29,6 @@
         "type": "field",
         "value": "available",
         "width": "20%"
-      },
-      {
-        "type": "field",
-        "value": "customer_id",
-        "width": "20%",
-        "label": "Customer"
       }
     ]
   }
