@@ -18,7 +18,7 @@ class Rental extends Model
                 'type' => 'many2many',
                 'foreign_object' => 'bike_rental\Bike',
                 'foreign_field' => 'rentals_ids',
-                'rel_table' => 'bike_rental_rel_bike_rental',
+                'rel_table' => 'bike_rental_rel_rental_bike',
                 'rel_foreign_key' => 'bike_id',
                 'rel_local_key' => 'rental_id'
             ],
